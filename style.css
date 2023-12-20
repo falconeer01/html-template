@@ -1,6 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --primary-color: #292870;
     --secondary-color: #efab47;
+    --text-color: #bebded;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
 }
 
 h1{
@@ -9,7 +21,6 @@ h1{
 
 body{
     margin: 0;
-    height: 150vh;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -69,7 +80,7 @@ body{
 .w-logo{
     width: 88px;
     height: 88px;
-    margin: 37px auto 0;
+    margin-top: 40px;
     object-fit: contain;
 }
 
@@ -79,6 +90,9 @@ body{
     font-weight: 600;
     line-height: 1.2;
     text-shadow: 3px 3px 13px rgba(0,0,0,0.25);
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 .welcomer-man{
@@ -90,4 +104,210 @@ body{
     background-position: center center;
     margin: 33px auto 0;
     justify-self: flex-end;
+}
+
+.img-src{
+   font-size: 1.125rem; 
+   text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+   letter-spacing: 5px;
+   font-weight: 550;
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.freepik{
+    border-bottom: 1px solid white;
+    padding: 0;
+}
+
+.buttons{
+    margin-top: 40px;
+}
+
+.btn{
+    background-color: #fff;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.4);
+    padding: 16px 40px 16px 40px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans serif;
+    border: none;
+}
+
+.btn-download{
+    color: var(--primary-color);
+}
+
+.download{
+    margin-right: 10px;
+}
+
+.free{
+    background-color: var(--primary-color);
+}
+
+.btn-free{
+    color: #fff;
+}
+
+.benefits{
+    width: 100%;
+    height: 691.58px;
+    background-color: var(--primary-color);
+}
+
+.benefit-content{
+    width: 1140px;
+    height: 691.58px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.panel{
+    height: 571.58px;
+}
+
+.lph{
+    margin: 30px 0 0 0;
+    font-weight: 400;
+    font-size: 1.875rem;
+    font-family: Oswald, sans-serif;
+    color: var(--secondary-color);
+}
+
+.left-content{
+    padding: 30px 0 0 30px;
+}
+
+.profile-pic{
+    width: 227px;
+    height: 227px;
+    background-image: url(assets/img/bg-profile-pic.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.h-benefits{
+    color: var(--secondary-color);
+    font-size: 1.875rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0;
+    margin: 36px auto 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.divider{
+    max-width: 198px;
+    height: 10px;
+    margin: 23px auto 0 0;
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.sample-text{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 30px 246px 0 0;
+    word-wrap: break-word;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.read-more{
+    letter-spacing: 2px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.25);
+    border-radius: 50px;
+    margin: 20px auto 0 0;
+    padding: 11px 50px 13px 48px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.how-it-works{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 741px;
+    display: grid;
+    justify-content: center;
+}
+
+.hiw-content{
+    width: 1140px;
+    height: 741px;
+    margin: 0 auto;
+}
+
+.h-hiw{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 3.75rem;
+    padding: 95px 0 0 0;
+    font-family: 'Oswald',sans-serif !important;
+    color: var(--secondary-color);
+}
+
+.container{
+    width: 1140px;
+    height: 341px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card{
+    width: 369.98px;
+    height: 341px;
+}
+
+.card-body{
+    padding: 30px 30px 30px 0;
+}
+
+.card-pp{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-pp>i{
+    color: var(--primary-color);
+}
+
+.card-header{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 34px auto 0 0;
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+}
+
+.h-text{
+    max-width: 339.98px;
+    font-size: 1.125rem;
+    color: var(--text-color);
+    margin: 26px 0 0;
+    word-wrap: break-word;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
 }
